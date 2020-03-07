@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #type1{
+        font-size:5rem;
+        font-family: arial, verdana, "Helvetica Neue", serif;
+        /*arial 기본설정, 근데 없으면 verdana, 그것도 없으면 Helvetica Neue로 폰트 적용*/
+        /*
+        serif (장식이 있는 폰트)
+        sans-serif
+        cursive (흘림체)
+        fantasy
+        monospace (고정폭)
+        */
+        font-weight: bold;
+        line-height: 2; /*글 간격 (2px 처럼 고정 폭도 가능)*/
+      }
+      #type2{
+        font:bold 5rem/2 arial, verdana, "Helvetica Neue", serif;
+        /* 5rem/2 ==> fontsize/line height */
+      }
+    </style>
+  </head>
+  <body>
+    <p id="type1">
+      Hello world<br>
+      Hello world
+    </p>
+    <p id="type2">
+      Hello world<br>
+      Hello world
+    </p>
+  </body>
+</html> 

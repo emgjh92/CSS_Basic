@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+   /*캐스캐이딩 적용 우선순위 : 웹브라우저 < 사용자 < 저자 */
+   /*
+    li{color:red !important;} 
+    ==> 모든 우선순위를 뛰어넘는 명령어
+   */
+   li{color:red;}
+   #idsel{color:blue;}
+   .classsel{color:green;}
+    </style>
+  </head>
+  <body>
+  <h1>수업내용</h1>
+  <ul>
+    <li>html</li>
+    <li id="idsel" class="classsel" style="color:powderblue">css</li>
+    <li>javascript</li>
+  </ul>
+    <ol>
+      <li>style attribute</li>
+      <li>id selector</li>
+      <li>class selector</li>
+      <li>tag selector</li>
+    </ol>
+  </body>
+</html>
