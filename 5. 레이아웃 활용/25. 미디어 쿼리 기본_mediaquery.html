@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      /*meta name =~~~ ==> 모바일 인식을 위한 코드 */
+        @media (max-width:600px){ 
+          /*width 가 600px 이하 가 됬을 때 바디컬러를 그린으로 바꾸겠다.*/
+            body{
+                background-color: green;
+            }
+        }
+        @media (max-width:500px){
+            body{
+                background-color: red;
+            }
+        }
+        @media (min-width:601px){
+            /*width 가 600px 이상이 됬을 때 바디컬러를 블루로 바꾸겠다.*/        
+            body{
+                background-color: blue;
+            }
+        } 
+        /*
+        media query는 화면의 종류와 크기에 따라서 디자인을 달리 줄 수 있는 CSS의 기능이다.
+        */
+    </style>
+
+</head>
+<body>
+   <ul>
+       <li>~500px : red</li>
+       <li>501~600px : green</li>
+       <li>601px~ : blue</li>
+   </ul>
+     
+     
+     
+</body>
+</html>
