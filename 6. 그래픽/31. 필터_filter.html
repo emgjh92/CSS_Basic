@@ -1,0 +1,28 @@
+<!doctype>
+<html>
+<head>
+    <style>
+ /* 포토샵의 필터 처럼 이미지에 필터를 적용하는 것 */
+ /* 코드를 통해 필터를 입히는 것 이므로 원본 이미지는 그대로 유지된다. */
+ /* 비디오나 iframe을 통한 외부 사이트 소스에도 적용 가능 */
+ /* 효과 예시 및 검색 사이트 : https://codepen.io/search/pens?q=filter */
+    img{
+        transition: all 1s;
+       }
+    img:hover{
+        -webkit-filter : grayscale(100%) blur(3px);
+        -o-filter:grayscale(100%) blur(3px);
+        filter:grayscale(100%) blur(3px);
+    }
+    h1{
+        -webkit-filter : blur(3px);
+        -o-filter:blur(3px);
+        filter:blur(3px);
+    }
+    </style>
+</head>
+<body>
+   <h1> D O G </h1>
+   <img src="sample.mt.jpg" alt="">
+</body>
+</html>
