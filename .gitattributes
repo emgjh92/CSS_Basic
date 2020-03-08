@@ -1,4 +1,4 @@
 # Set default behaviour, in case users don't have core.autocrlf set.
 * text=auto
 
-CSS_Basic/7. 유지보수/34. link 와 import로 한번에 적용하기/style.css linguist-vendored
+*.html linguist-vendored=false
